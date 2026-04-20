@@ -5,6 +5,9 @@ body{
     padding-top: 5px;
     height: 100%;
 }
+p{
+    font-size: 30px;
+}
 .p{
     margin-top: 300px;
     font-size: 30px;
