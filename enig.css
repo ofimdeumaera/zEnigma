@@ -5,9 +5,6 @@ body{
     padding-top: 5px;
     height: 100%;
 }
-p{
-    font-size: 30px;
-}
 .p{
     margin-top: 300px;
     font-size: 30px;
@@ -17,6 +14,7 @@ p{
     font-size: 30px;
     color: black;  
 }
+
 @media screen and (max-width: 480px) {
     body{
         background-color: black;
@@ -30,9 +28,12 @@ p{
         font-size: 25px;
     }
     .p2{
-    margin-top: 300px;
-    font-size: 18px;
-    color: black;  
+        margin-top: 200px;
+        font-size: 18px;
+        color: black;  
+    }
+    p{
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 760px) and (max-width: 1280px) {
@@ -45,11 +46,14 @@ p{
     }
     .p{
         margin-top: 350px;
-        font-size: 30px;
+        font-size: 46px;
     }
     .p2{
-    margin-top: 300px;
-    font-size: 25px;
-    color: black;  
+        margin-top: 200px;
+        font-size: 25px;
+        color: black;  
+    }
+    p{
+        font-size: 35px;
     }
 }
